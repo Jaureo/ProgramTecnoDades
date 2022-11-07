@@ -1,10 +1,10 @@
 import random
-x = random.randint(1,100)
+x = random.randint(1,10)
 
 print ("Adivina es numero")
 y = int(input())
 
-torn = 1
+torn = 0
 llista = []
 
 while (y!=x):
@@ -15,9 +15,10 @@ while (y!=x):
         print ("es numero es més petit ")
     llista.append(y)    
     y = int(input())
+    if y in llista:
+        print ("ja has posat aquest numero")
 
 if (y == x):
     print ("És correcte")
     print(llista)
-    
-#Created by Joan Miquel :p
+    #created by Jaureo
