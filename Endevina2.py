@@ -21,4 +21,5 @@ while (y!=x):
 if (y == x):
     print ("És correcte")
     print(llista)
-    #created by Jaureo
+
+#created by Jaureo
